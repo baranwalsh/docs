@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "almond",
+  "name": "Shagun's Space",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#c69684",
+    "light": "#faf6ec",
+    "dark": "#80142e"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -25,8 +25,8 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Contact",
+        "href": "mailto:baranwalsh@proton.me"
       }
     ],
     "primary": {
@@ -35,11 +35,27 @@
       "href": "https://dashboard.mintlify.com"
     }
   },
+  "appearance": {
+    "default": "light"
+  },
+  "background": {
+    "color": {
+      "dark": "#521f1f",
+      "light": "#f3f1e8"
+    }
+  },
+  "fonts": {
+    "family": "Inter",
+    "weight": 300,
+    "heading": {
+      "family": "Merriweather",
+      "weight": 500
+    }
+  },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://shagun.gitbook.io/notes"
     }
-  }
+  },
+  "description": "Just for anything"
 }
