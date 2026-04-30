@@ -1,9 +1,9 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
+  "theme": "luma",
   "name": "Shagun's Space",
   "colors": {
-    "primary": "#c69684",
+    "primary": "#b7755c",
     "light": "#faf6ec",
     "dark": "#80142e"
   },
@@ -17,10 +17,6 @@
         ]
       }
     ]
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
   },
   "navbar": {
     "links": [
@@ -40,9 +36,10 @@
   },
   "background": {
     "color": {
-      "dark": "#521f1f",
+      "dark": "#5d2121",
       "light": "#f3f1e8"
-    }
+    },
+    "decoration": "grid"
   },
   "fonts": {
     "family": "Inter",
@@ -57,5 +54,8 @@
       "website": "https://shagun.gitbook.io/notes"
     }
   },
-  "description": "Just for anything"
+  "description": "Just for anything",
+  "banner": {
+    "dismissible": false
+  }
 }
