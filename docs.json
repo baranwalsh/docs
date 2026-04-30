@@ -9,7 +9,14 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "groups": []
+    "dropdowns": [
+      {
+        "dropdown": "Hello",
+        "pages": [
+          "demo"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
